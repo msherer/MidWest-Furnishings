@@ -1,43 +1,68 @@
-#--------------------------#
-# Magento Default Files    #
-#--------------------------#
+# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio and WebStorm
+# Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
 
-/app/etc/local.xml
+# User-specific stuff
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries
+.idea/**/shelf
 
-/media/*
-!/media/.htaccess
+# Generated files
+.idea/**/contentModel.xml
 
-!/media/customer
-/media/customer/*
-!/media/customer/.htaccess
+# Sensitive or high-churn files
+.idea/**/dataSources/
+.idea/**/dataSources.ids
+.idea/**/dataSources.local.xml
+.idea/**/sqlDataSources.xml
+.idea/**/dynamic.xml
+.idea/**/uiDesigner.xml
+.idea/**/dbnavigator.xml
 
-!/media/dhl
-/media/dhl/*
-!/media/dhl/logo.jpg
+# Gradle
+.idea/**/gradle.xml
+.idea/**/libraries
 
-!/media/downloadable
-/media/downloadable/*
-!/media/downloadable/.htaccess
+# Gradle and Maven with auto-import
+# When using Gradle or Maven with auto-import, you should exclude module files,
+# since they will be recreated, and may cause churn.  Uncomment if using
+# auto-import.
+# .idea/modules.xml
+# .idea/*.iml
+# .idea/modules
+# *.iml
+# *.ipr
 
-!/media/xmlconnect
-/media/xmlconnect/*
+# CMake
+cmake-build-*/
 
-!/media/xmlconnect/custom
-/media/xmlconnect/custom/*
-!/media/xmlconnect/custom/ok.gif
+# Mongo Explorer plugin
+.idea/**/mongoSettings.xml
 
-!/media/xmlconnect/original
-/media/xmlconnect/original/*
-!/media/xmlconnect/original/ok.gif
+# File-based project format
+*.iws
 
-!/media/xmlconnect/system
-/media/xmlconnect/system/*
-!/media/xmlconnect/system/ok.gif
+# IntelliJ
+out/
 
-/var/*
-!/var/.htaccess
+# mpeltonen/sbt-idea plugin
+.idea_modules/
 
-!/var/package
-/var/package/*
-!/var/package/*.xml
+# JIRA plugin
+atlassian-ide-plugin.xml
 
+# Cursive Clojure plugin
+.idea/replstate.xml
+
+# Crashlytics plugin (for Android Studio and IntelliJ)
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+fabric.properties
+
+# Editor-based Rest Client
+.idea/httpRequests
+
+# Android studio 3.1+ serialized cache file
+.idea/caches/build_file_checksums.ser
